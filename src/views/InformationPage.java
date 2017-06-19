@@ -4,26 +4,18 @@ package views;
 import javafx.event.ActionEvent;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
-import javafx.scene.Group;
 import javafx.scene.control.Button;
-import javafx.scene.control.ContentDisplay;
 import javafx.scene.control.Label;
-import javafx.scene.control.MenuBar;
 import javafx.scene.control.Separator;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
-import javafx.scene.control.Tooltip;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
-import javafx.scene.paint.Color;
-import javafx.scene.paint.Paint;
-import javafx.scene.shape.Rectangle;
 import main.Launcher;
 
 
@@ -36,8 +28,6 @@ public class InformationPage extends BorderPane {
 	private static ToggleButton today, tomorrow, thisWeek, nextWeek;
 	private static ToggleGroup buttonGroup;
 	private static Button goBackBtn;
-	private static MenuBar buttonHolder;
-	private static Button goBack;
 	private static Label starSign;
 	private static Image image;
 	private static ImageView imageView;
