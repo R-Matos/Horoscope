@@ -52,7 +52,7 @@ public class Launcher extends Application {
         selectionScene = new Scene(selectionPane, 500, 500);
         selectionScene.getStylesheets().add(selectionCSS);
         
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("Horoscope Reading");
         primaryStage.setScene(selectionScene);
         primaryStage.setResizable(false);
         primaryStage.show();
